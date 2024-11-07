@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Web Application</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div class="stopwatch-container">
+        <h1>Stopwatch</h1>
+        <div class="stopwatch-display">
+            <span id="hours">00</span>:
+            <span id="minutes">00</span>:
+            <span id="seconds">00</span>
+        </div>
+        <div class="button-group">
+            <button id="start-button" class="control-button">Start</button>
+            <button id="pause-button" class="control-button" disabled>Pause</button>
+            <button id="reset-button" class="control-button">Reset</button>
+        </div>
+        <h2>Lap Times</h2>
+        <ul id="lap-times">
+            <!-- Lap times will be displayed here -->
+        </ul>
+    </div>
+
+    <script src="task2.js"></script>
+</body>
+</html>
